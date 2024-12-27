@@ -10,8 +10,8 @@ gem 'bootsnap', require: false
 
 ##-- rails application helper gems --##
 gem 'acts-as-taggable-on'
-gem 'mysql2', '~> 0.5.5'
 gem 'attr_extras'
+gem 'pg'
 gem 'browser'
 gem 'hashie'
 gem 'jbuilder'
@@ -242,4 +242,3 @@ group :development, :test do
   gem 'spring-watcher-listen'
 end
 
-gem 'pg'
